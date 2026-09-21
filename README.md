@@ -1,21 +1,31 @@
-# 🎬 销售口播文案生成器 Skill
+# 🎬 宏恩科技 · 销售专用文案生成器 Skill
 
-> **销售给个想法/内容/感受 → 自动生成 10 条不同类型的口播文案**
+> **【宏恩科技销售团队专用】** 销售给个想法/内容/感受 → 自动生成 10 条不同类型的口播文案
 > 60-90 秒 / 口语化 / 无违禁词 / 八大爆款元素 / 反认知开头 / 直接拍
 
 [![Version](https://img.shields.io/badge/version-V1.2-blue.svg)]()
 [![License](https://img.shields.io/badge/license-MIT-green.svg)]()
 [![WorkBuddy](https://img.shields.io/badge/WorkBuddy-Skill-orange.svg)]()
+[![Custom](https://img.shields.io/badge/type-%E5%AE%9A%E5%88%B6%E7%89%88-red.svg)]()
+
+---
+
+## 🏢 关于本 Skill
+
+**本 Skill 为宏恩科技销售团队定制版**，内容针对宏恩科技的产品线、客户群体、销售场景做了专门适配，**非通用销售 Skill**。
+
+- **适用**：宏恩科技销售员 / 销售主管 / 陪跑客户现场
+- **不适用**：其他行业/公司的销售场景（公式可参考，案例需替换）
 
 ---
 
 ## 🚀 这个 Skill 解决什么问题
 
-**老板/销售员最难的不是"不知道拍什么"，是"不知道怎么说"。**
+**销售员最难的不是"不知道拍什么"，是"不知道怎么说"。**
 
 场景：
 - 销售员现场想到一个点，想马上出一段口播文案
-- 老板陪跑客户时，需要根据客户反馈临时写一段
+- 陪跑客户时，需要根据客户反馈临时写一段
 - 挖到一条客户金句，要做成 60-90 秒的口播脚本
 
 **这个 Skill 就是干这件事的** —— 你给 1 个想法，它给 10 条能直接拍的口播文案。
@@ -111,7 +121,7 @@
 ## 📚 目录结构
 
 ```
-sales-spoken-script-generator/
+hongen-tech-sales-script/
 ├── SKILL.md                       # 主入口（6 步使用流程）
 ├── README.md                      # 本文件
 ├── LICENSE                        # MIT License
@@ -119,11 +129,11 @@ sales-spoken-script-generator/
     ├── 5-hooks.md                 # 5 类开头钩子公式（150 公式 + 800 例子）
     ├── 5-frames.md                # 5 段万能公式详解（60-90 秒版）
     ├── 5-scenes.md                # 5 大拍摄场景
-    ├── 8-viral-elements.md        # 🆕 八大爆款元素 + 反认知开头
-    ├── forbidden-words.md         # 🆕 14 类违禁词大全（200+ 词）
+    ├── 8-viral-elements.md        # 八大爆款元素 + 反认知开头
+    ├── forbidden-words.md         # 14 类违禁词大全（200+ 词）
     ├── check-list.md              # 28 项检查清单（14 口语化 + 14 违禁词）
     ├── 10-examples.md             # 10 条完整示例脚本
-    └── 10-scripts-v1.2.md         # 🆕 V1.2 实战 10 条（8 大元素全覆盖）
+    └── 10-scripts-v1.2.md         # V1.2 实战 10 条（8 大元素全覆盖）
 ```
 
 ---
@@ -152,22 +162,22 @@ sales-spoken-script-generator/
 
 ---
 
-## 🛠 安装使用（WorkBuddy）
+## 🛠 安装使用（宏恩科技内部）
 
-### 方式 1：本地 Skill 目录（推荐）
+### 方式 1：克隆仓库（推荐）
 
 ```bash
-# 1. 克隆到 WorkBuddy 用户级 Skill 目录
-git clone https://github.com/kdkjyyds-spec/sales-spoken-script-generator.git \
-  ~/.workbuddy/skills/sales-spoken-script-generator
+# 克隆到 WorkBuddy 用户级 Skill 目录
+git clone https://github.com/kdkjyyds-spec/hongen-tech-sales-script.git \
+  ~/.workbuddy/skills/hongen-tech-sales-script
 
-# 2. 在 WorkBuddy 里说触发词即可
-"销售给个内容，给我个口播"
+# 在 WorkBuddy 里说触发词即可
+"宏恩销售文案：客户说降本增效"
 ```
 
 ### 方式 2：手动复制
 
-把整个 `sales-spoken-script-generator/` 文件夹放到：
+把整个 `hongen-tech-sales-script/` 文件夹放到：
 - **Windows**：`C:\Users\<你的用户名>\.workbuddy\skills\`
 - **macOS / Linux**：`~/.workbuddy/skills/`
 
@@ -175,6 +185,7 @@ git clone https://github.com/kdkjyyds-spec/sales-spoken-script-generator.git \
 
 ## 🗣 触发词
 
+- **宏恩销售文案** / 宏恩科技文案
 - 销售给个内容 / 老板讲个点
 - 口播文案 / 生成口播 / 写口播脚本
 - 销售话术生成 / 给我个口播
@@ -185,9 +196,9 @@ git clone https://github.com/kdkjyyds-spec/sales-spoken-script-generator.git \
 
 ## 📊 数据来源
 
+- 宏恩科技产品工艺与销售实践（水泥助磨剂）
 - 工业品头部账号 205 条逐字稿（40 条弹药库）
 - 八大爆款元素方法论
-- 行业工艺自述（水泥助磨剂）
 - 销售问卷挖掘 17 条金句 + 5 条真实反馈
 - 50 条口语化爆款文案库
 - 全网短视频违禁词大全（2026）—— 14 类 / 200+ 词
@@ -212,19 +223,22 @@ git clone https://github.com/kdkjyyds-spec/sales-spoken-script-generator.git \
 |---|---|---|
 | V1.0 | 2026-09-21 | 首发：5 类钩子 + 5 段公式 + 5 大场景（30-60 秒）|
 | V1.1 | 2026-09-21 | 升级：60-90 秒 + 14 类违禁词大全 + 28 项检查 |
-| **V1.2** | **2026-09-21** | **升级：八大爆款元素 + 反认知开头 + 10 条实战脚本** |
+| V1.2 | 2026-09-21 | 升级：八大爆款元素 + 反认知开头 + 10 条实战脚本 |
+| **V1.2-宏恩** | **2026-09-21** | **定制：定位改为宏恩科技销售专用，品牌标识 + 内部许可** |
 
 ---
 
 ## 📄 License
 
-MIT License - 详见 [LICENSE](LICENSE)
+本项目为**宏恩科技内部定制资产**，版权归宏恩科技所有。仅供宏恩科技销售团队内部使用，未经许可不得对外分发。
+
+详见 [LICENSE](LICENSE)
 
 ---
 
 ## 👤 维护
 
-**kdkjyyds-spec**
+**宏恩科技 · 销售部**
 
 ---
 
